@@ -17,11 +17,13 @@ Questo progetto è un interprete di comandi scritto in Java .
     ```sh
     git clone https://github.com/MysticGabry/minicad_project_240475.git
     ```
-2. Apri un IDE a tua scelta (ad esempio IntelliJ IDEA, Eclipse, NetBeans, ecc.).
+2. Apri un IDE a tua scelta (ad esempio IntelliJ IDEA, Eclipse, NetBeans, ecc...);
 
-3. Importa il progetto in un IDE a tua scelta (Intellij IDEA, Eclipse, ecc),
+3. Importa il progetto in un IDE a tua scelta (Intellij IDEA, Eclipse, ecc);
 
-4. Vai nel package "main", trova la Classe "Main", e avviala facendo un click col tasto destro del mouse, selezionando 'Run Main.main()'
+4. Vai nel package "main", trova la Classe "Main", e avviala facendo un click col tasto destro del mouse, selezionando 'Run Main.main()'.
+
+5. Inserisci i comandi e inizia a disegnare!
 
 
 ## Utilizzo
@@ -33,6 +35,8 @@ Di seguito alcuni comandi di esempio, da inserire nel prompt centrale presente s
 -    mv Image1 (140.0,260.0)
 -    scale Circle1 27.3
 -    ls Rectangle1
+
+-    ...
     
 
 ## Esempio del Main
