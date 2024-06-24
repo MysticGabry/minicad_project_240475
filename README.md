@@ -26,13 +26,13 @@ Questo progetto è un interprete di comandi scritto in Java .
 
 ## Utilizzo
 Di seguito alcuni comandi di esempio, da inserire nel prompt centrale presente sul pannello di visualizzazione: 
-   new circle (100.0) (300.0,200.0)
-   new rectangle (120.0,200.0) (430.0,220.0)
-   new img "C:\\Users\\Utente\\Desktop\\prova.jpg" (321.5,220.0)
+-    new circle (100.0) (300.0,200.0)
+-    new rectangle (120.0,200.0) (430.0,220.0)
+-    new img "C:\\Users\\Utente\\Desktop\\prova.jpg" (321.5,220.0)
 
-   mv Image1 (140.0,260.0)
-   scale Circle1 27.3
-   ls Rectangle1
+-    mv Image1 (140.0,260.0)
+-    scale Circle1 27.3
+-    ls Rectangle1
     
 
 ## Esempio del Main
