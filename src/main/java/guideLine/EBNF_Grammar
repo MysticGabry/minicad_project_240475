@@ -1,0 +1,21 @@
+
+Ex:      create circle (5.0) (3.1,4.5)
+<cmd>::=<create>|<remove>|<move>|<scale>|<list>|<group>|<ungroup>|<area>|<perimeter>
+<create>::= new <typeconstr> <pos>
+<remove>::= del <objID>
+<move>::= mv <objID> <pos> | mvoff <objID> <pos>
+<scale>::= scale <objID> <posfloat>
+<list>::= ls <objID>| ls <type> | ls all | ls groups
+<group>::= grp <listID>
+<ungroup>::= ungrp <objID>
+<area>::= area <objID>| area <type> | area all
+<perimeter>::= perimeter <objID>| perimeter <type> | perimeter all
+<pos>::=( <posfloat> , <posfloat> )
+<typeconstr>::= circle (<posfloat>) | rectangle <pos> | img (<path>)
+<type>::= circle | rectangle | img
+<listID>::= <objID> { , <objID> }
+
+<posfloat>:= numero floating point non negativo
+<objID>:= un identificatore
+<path>:= un percorso valido di file
+
