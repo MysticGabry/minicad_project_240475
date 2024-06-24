@@ -5,7 +5,7 @@ Questo progetto è un interprete di comandi scritto in Java .
 
 - Semplice interfaccia a riga di comando.
 - Possibilità di vedere istantaneamente le modifiche apportate.
-- Pulsante per tornare facilmente all'istruzione precedente.
+- Pulsante "undo" che permette di visualizzare lo stato precedente.
 
 ## Requisiti
 
@@ -31,6 +31,10 @@ Di seguito alcuni comandi di esempio, da inserire nel prompt centrale presente s
 -    new circle (100.0) (300.0,200.0)
 -    new rectangle (120.0,200.0) (430.0,220.0)
 -    new img "C:\\Users\\Utente\\Desktop\\prova.jpg" (321.5,220.0)
+
+-    del Circle1
+-    del Rectangle3
+-    del Image5
 
 -    mv Image1 (140.0,260.0)
 -    scale Circle1 27.3
