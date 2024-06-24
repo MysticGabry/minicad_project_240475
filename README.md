@@ -9,7 +9,7 @@ Questo progetto è un interprete di comandi scritto in Java .
 
 ## Requisiti
 
-- Java
+- Avere un IDE che supporti Java.
 
 ## Installazione
 
