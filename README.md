@@ -23,7 +23,7 @@ Questo progetto è un interprete di comandi scritto in Java.
 ## Utilizzo
 Di seguito alcuni comandi di esempio, da inserire nell'apposita sezione.
     ```sh
-
+   ...
     ```
 
 ## Esempio di codice
