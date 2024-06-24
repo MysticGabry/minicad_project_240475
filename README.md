@@ -26,7 +26,6 @@ Questo progetto è un interprete di comandi scritto in Java .
 
 ## Utilizzo
 Di seguito alcuni comandi di esempio, da inserire nel prompt centrale presente sul pannello di visualizzazione: 
-    ```sh
    new circle (100.0) (300.0,200.0)
    new rectangle (120.0,200.0) (430.0,220.0)
    new img "C:\\Users\\Utente\\Desktop\\prova.jpg" (321.5,220.0)
