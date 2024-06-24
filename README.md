@@ -1,10 +1,11 @@
 # MiniCad
-Questo progetto è un interprete di comandi scritto in Java.
+Questo progetto è un interprete di comandi scritto in Java .
 
 ## Caratteristiche
 
 - Semplice interfaccia a riga di comando.
-- ...
+- Possibilità di vedere istantaneamente le modifiche apportate.
+- Pulsante per tornare facilmente all'istruzione precedente.
 
 ## Requisiti
 
@@ -16,19 +17,28 @@ Questo progetto è un interprete di comandi scritto in Java.
     ```sh
     git clone https://github.com/MysticGabry/minicad_project_240475.git
     ```
-2. 
-...
+2. Apri un IDE a tua scelta (ad esempio IntelliJ IDEA, Eclipse, NetBeans, ecc.).
+
+3. Importa il progetto in un IDE a tua scelta (Intellij IDEA, Eclipse, ecc),
+
+4. Vai nel package "main", trova la Classe "Main", e avviala facendo un click col tasto destro del mouse, selezionando 'Run Main.main()'
 
 
 ## Utilizzo
-Di seguito alcuni comandi di esempio, da inserire nell'apposita sezione.
+Di seguito alcuni comandi di esempio, da inserire nel prompt centrale presente sul pannello di visualizzazione: 
     ```sh
-   ...
-    ```
+   new circle (100.0) (300.0,200.0)
+   new rectangle (120.0,200.0) (430.0,220.0)
+   new img "C:\\Users\\Utente\\Desktop\\prova.jpg" (321.5,220.0)
 
-## Esempio di codice
+   mv Image1 (140.0,260.0)
+   scale Circle1 27.3
+   ls Rectangle1
+    
 
-Ecco un esempio del `main`:
+## Esempio del Main
+
+Ecco un esempio del `Main`:
 
 ```java
 package main;
