@@ -15,7 +15,6 @@ public class ListCommand implements GenericCommand {
 
     @Override
     public void execute(List<String> tokensList) {
-        System.out.println(tokensList);
         if (tokensList.size() < 2)
             throw new IllegalArgumentException("The command requires at least two arguments: command and type or ID.");
         if (!CostantValues.figuresID.contains(tokensList.get(1)) && !tokensList.get(1).equals(TokenSigns.ALL) &&

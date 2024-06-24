@@ -12,7 +12,7 @@ import java.util.List;
 public class PerimeterCommand implements GenericCommand {
     @Override
     public void execute(List<String> tokensList) {
-        System.out.println(tokensList);
+
         if (tokensList.size() != 1)throw new IllegalArgumentException("The arguments provided are invalid");
         if (!CostantValues.figuresID.contains(tokensList.get(0))) throw new IllegalArgumentException("Invalid ID");
         if (tokensList.get(0).toLowerCase().equals("circles")) {

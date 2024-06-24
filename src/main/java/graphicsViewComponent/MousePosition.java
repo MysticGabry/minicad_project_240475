@@ -15,7 +15,7 @@ public class MousePosition extends JPanel {
             public void mouseMoved(MouseEvent e) {
                 mouseX = e.getX();
                 mouseY = e.getY();
-                repaint(); // aggiorna le coordinate del mouse
+                repaint();
             }
 
             @Override
@@ -26,7 +26,6 @@ public class MousePosition extends JPanel {
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-        // Disegna il testo con la posizione del mouse
         g.drawString("Pointing at: (" + mouseX + ", " + mouseY + ")", 10, 20);
     }
 }

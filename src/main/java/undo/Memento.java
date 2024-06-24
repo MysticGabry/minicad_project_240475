@@ -11,7 +11,6 @@ public class Memento { // Memento
 
     public Memento(Component[] components) {
         this.components = components;
-        System.out.println(this);
         PromptPanel.setStatusButtonEnabled(true);
     }
 
