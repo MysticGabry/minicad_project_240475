@@ -1,54 +1,42 @@
-# Command Interpreter
-
-Questo progetto è un interprete di comandi scritto in Java. L'interprete consente di eseguire comandi da una riga di comando personalizzata.
+# MiniCad
+Questo progetto è un interprete di comandi scritto in Java.
 
 ## Caratteristiche
 
-- Esecuzione di comandi predefiniti.
-- Estensibile con nuovi comandi.
 - Semplice interfaccia a riga di comando.
+- ...
 
 ## Requisiti
 
-- Java 11 o superiore.
+- Java
 
 ## Installazione
 
 1. Clona il repository:
     ```sh
-    git clone https://github.com/tuo-username/command-interpreter.git
+    git clone https://github.com/MysticGabry/minicad_project_240475.git
     ```
-2. Naviga nella directory del progetto:
-    ```sh
-    cd command-interpreter
-    ```
-3. Compila il progetto:
-    ```sh
-    javac -d out src/main/java/com/example/commandinterpreter/*.java
-    ```
+2. 
+...
+
 
 ## Utilizzo
+Di seguito alcuni comandi di esempio, da inserire nell'apposita sezione.
+    ```sh
 
-1. Avvia l'interprete di comandi:
-    ```sh
-    java -cp out com.example.commandinterpreter.Main
-    ```
-2. Digita i comandi nella riga di comando. Per esempio:
-    ```sh
-    > help
-    > exit
     ```
 
 ## Esempio di codice
 
-Ecco un esempio di come il metodo `main` potrebbe apparire:
+Ecco un esempio del `main`:
 
 ```java
-package com.example.commandinterpreter;
+package main;
+
+import graphicsViewComponent.GraphicFrame;
 
 public class Main {
-    public static void main(String[] args) {
-        CommandInterpreter interpreter = new CommandInterpreter();
-        interpreter.start();
+    public static void main(String... args) {
+        GraphicFrame.getInstance();
     }
 }
